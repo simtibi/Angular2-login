@@ -8,9 +8,9 @@ export class User {
 }
 
 var users = [
-  new User('admin@admin.com','adm9'),
-  new User('user1@gmail.com','a23'),
-  new User('simtibi@gmail.com','kaka')
+  new User('marcell.kiss@budacode.com','budacode'),
+  new User('attila.olah@budacode.com','budacode'),
+  new User('tibor.simon@budacode.com','budacode')
 ];
 
 @Injectable()
