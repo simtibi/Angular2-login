@@ -6,6 +6,11 @@ import {AuthenticationService, User} from './authentication.service'
     providers: [AuthenticationService],
     templateUrl: "app/templates/login/login.html",
     styles : [`
+        span {
+          font-size: 20px;
+          display: block;
+          margin-left: 15px;
+        }
         input {
           color: white !important;
           font-size: 20px !important;
@@ -24,6 +29,9 @@ import {AuthenticationService, User} from './authentication.service'
           margin: 0px auto;
           margin-bottom: 50px;
 
+        }
+        .panel-body {
+          background-color: rgba(28,98,116,1);
         }
 
       `]
